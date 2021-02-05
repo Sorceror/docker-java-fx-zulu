@@ -13,6 +13,7 @@ RUN apt-get update \
         zip \
         unzip \
         git \
+        ncftp \
     && rm -rf /var/cache/apt/archives/* \
     && rm -rf /var/lib/apt/lists/*
 
